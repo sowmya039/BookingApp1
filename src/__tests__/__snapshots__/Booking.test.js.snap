@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Testing should match snapshot when shallow 1`] = `
+<styled.section
+  data-test="styledcontainer"
+>
+  <form
+    data-test="form-element"
+    onSubmit={[Function]}
+  >
+    <Room
+      _onChange={[Function]}
+      data-test="room-element"
+      index={0}
+      key="0"
+      room={
+        Object {
+          "adults": 1,
+          "children": 0,
+          "name": "Room 1",
+          "selected": true,
+        }
+      }
+    />
+    <Room
+      _onChange={[Function]}
+      data-test="room-element"
+      index={1}
+      key="1"
+      room={
+        Object {
+          "adults": 1,
+          "children": 0,
+          "name": "Room 2",
+          "selected": false,
+        }
+      }
+    />
+    <Room
+      _onChange={[Function]}
+      data-test="room-element"
+      index={2}
+      key="2"
+      room={
+        Object {
+          "adults": 1,
+          "children": 0,
+          "name": "Room 3",
+          "selected": false,
+        }
+      }
+    />
+    <Room
+      _onChange={[Function]}
+      data-test="room-element"
+      index={3}
+      key="3"
+      room={
+        Object {
+          "adults": 1,
+          "children": 0,
+          "name": "Room 4",
+          "selected": false,
+        }
+      }
+    />
+    <styled.div />
+    <styled.input
+      type="submit"
+      value="Submit"
+    />
+  </form>
+</styled.section>
+`;

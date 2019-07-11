@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Action creators validity tests creates a GET_SAVED_ROOMS action 1`] = `
+Array [
+  Object {
+    "type": "GET_SAVED_ROOMS",
+  },
+]
+`;
+
+exports[`Action creators validity tests creates a SAVE_ROOMS action 1`] = `
+Array [
+  Object {
+    "type": "GET_SAVED_ROOMS",
+  },
+  Object {
+    "payload": Object {
+      "ev": Object {},
+      "index": 2,
+    },
+    "type": "UPDATE_ROOMS",
+  },
+  Object {
+    "type": "SAVE_ROOMS",
+  },
+]
+`;
+
+exports[`Action creators validity tests creates a UPDATE_ROOMS action 1`] = `
+Array [
+  Object {
+    "type": "GET_SAVED_ROOMS",
+  },
+  Object {
+    "payload": Object {
+      "ev": Object {},
+      "index": 2,
+    },
+    "type": "UPDATE_ROOMS",
+  },
+]
+`;
